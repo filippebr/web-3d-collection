@@ -5,7 +5,7 @@ import { softShadows } from 'drei';
 
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
-import SpinningMesh from './components/spinningMesh';
+// import SpinningMesh from './components/spinningMesh';
 import PlaneMesh from './components/planeMesh';
 import Controls from './components/Controls';
 import Lights from './components/Lights';
@@ -18,7 +18,7 @@ const SkullMesh = () => {
   const [model, setModel] = useState();
 
   useEffect(() => {
-    new GLTFLoader().load("/scene.glb", setModel);
+    new GLTFLoader().load("/mech_skull.glb", setModel);
   }, []);
 
   // console.log(model);
@@ -42,10 +42,6 @@ function App() {
         <PlaneMesh />
 
         <SkullMesh />
-
-        <SpinningMesh position={[0, 1, 0]} args={[3, 2, 1]} color='lightblue' />
-        <SpinningMesh position={[-2, 1, -5]} color='pink' />
-        <SpinningMesh position={[5, 1, -2]} color='pink' /> 
       </Canvas>
     </>
   );
