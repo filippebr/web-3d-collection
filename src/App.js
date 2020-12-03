@@ -18,10 +18,10 @@ const SkullMesh = () => {
   const [model, setModel] = useState();
 
   useEffect(() => {
-    new GLTFLoader().load("/mech_skull.glb", setModel);
+    new GLTFLoader().load("/skull_mech.glb", setModel);
   }, []);
 
-  // console.log(model);
+  console.log(model);
 
   return model ? <primitive object={model.scene} /> : null;
 }

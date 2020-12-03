@@ -13,7 +13,7 @@ const Lights = () => (
       shadow-camera-top={10}
       shadow-camera-bottom={-10}
     />
-    <pointLight position={[10, 0, 10]} intensity={.5} />
+    <pointLight position={[10, 0, 50]} intensity={.5} />
     <pointLight position={[0, -10, 0]} intensity={1.5} />    
   </>
 );
