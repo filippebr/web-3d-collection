@@ -1,0 +1,162 @@
+{
+    "asset" : {
+        "copyright" : "fibr",
+        "generator" : "Khronos glTF Blender I/O v1.4.39",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.009999990463256836,
+                0.009999990463256836,
+                0.009999990463256836
+            ],
+            "translation" : [
+                2.304919481277466,
+                2.2097485065460205,
+                1.1621721982955933
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "scale" : [
+                0.009999990463256836,
+                0.009999990463256836,
+                0.009999990463256836
+            ],
+            "translation" : [
+                2.3377456665039062,
+                2.2002930641174316,
+                1.2414846420288086
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "skull_mechanic.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                0.0028709981124848127,
+                0.0028709981124848127,
+                0.0028709981124848127
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Metal Rust",
+            "pbrMetallicRoughness" : {
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "skull_mechanic.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 20245,
+            "max" : [
+                177.8870391845703,
+                212.35797119140625,
+                283.6661071777344
+            ],
+            "min" : [
+                -170.48020935058594,
+                -243.18487548828125,
+                -232.8809356689453
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 20245,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 20245,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 74928,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 242940,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 242940,
+            "byteOffset" : 242940
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 161960,
+            "byteOffset" : 485880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 149856,
+            "byteOffset" : 647840
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 797696,
+            "uri" : "skull_mech.bin"
+        }
+    ]
+}

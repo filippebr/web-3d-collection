@@ -18,7 +18,7 @@ const SkullMesh = () => {
   const [model, setModel] = useState();
 
   useEffect(() => {
-    new GLTFLoader().load("/skull_mech.glb", setModel);
+    new GLTFLoader().load("/skull_mech.gltf", setModel);
   }, []);
 
   console.log(model);
